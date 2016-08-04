@@ -1,8 +1,26 @@
 .spy{
   background-color: yellow;
-  padding: 20px 0 20px 0;
+  border: 2px solid black;
+  padding: 20px 0 20px 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
 }
-/*I couldn't get the toggle class to work*/
-.spy.red{
+
+.red{
   background-color: red;
 }
+
+.newSpy{
+  margin-right: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.change, .delete{
+  float: right;
+  position: relative;
+  margin-right: 10px;
+}
+
+/*I couldn't get the toggle class to work*/
