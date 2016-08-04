@@ -1,0 +1,8 @@
+.spy{
+  background-color: yellow;
+  padding: 20px 0 20px 0;
+}
+/*I couldn't get the toggle class to work*/
+.spy.red{
+  background-color: red;
+}
